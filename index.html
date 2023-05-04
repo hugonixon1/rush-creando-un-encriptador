@@ -9,11 +9,24 @@
     <title>Encriptador</title>
 </head>
 <body>
-    <input type="textarea">
-    <label for="encriptar">encriptar</label>
-    <input type="button" id="encriptar">
-    <label for="desencriptar">desencriptar</label>
-    <input type="button" id="desencriptar">
-    <input type="textarea">
+    <header>
+        <h1>Encriptador/Desencriptador</h1>
+    </header>
+    <main>
+        <div class="entrada">
+            <textarea id="entrada-texto" cols="30" rows="10" placeholder="solo letras minusculas"></textarea>
+            <br>
+            <button class="b-encriptar">ENCRIPTAR</button>
+            <button class="b-desencriptar">DESENCRIPTAR</button>
+        </div>
+        <div class="salida">
+            <textarea id="salida-texto" cols="30" rows="10"></textarea>
+            <br>
+            <button class="copiar">COPIAR</button>
+        </div>
+    </main>
+    <footer>
+        <p class="creditos">Hecho por: Hugo Arnez</p>
+    </footer>
 </body>
 </html>
