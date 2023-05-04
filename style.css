@@ -1,0 +1,102 @@
+body
+{
+    background: #bcb6ba;
+}
+h1
+{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 150%;
+}
+.entrada
+{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 150%;
+}
+.logo
+{
+    padding: 5px;
+    width: 6%;
+}
+.entrada,.salida
+{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 12px;
+}
+.entrada-texto
+{
+    border: none;
+    background: #cae5f0;
+    color: #ff8400;
+    text-transform: lowercase;
+    font-size: 20px;
+}
+::placeholder
+{
+    color: #ff8400;
+    font-size: 25px;
+    text-size-adjust: 25px;
+}
+.entrada-texto:focus
+{
+    outline: none;
+}
+.botones
+{
+    margin-top: 18px;
+}
+.b-encriptar
+{
+    background: #130dc9;
+    border: 2px solid;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    height: 70px;
+    width: 320px;
+    margin-right: 10px;
+    font-size: 38px;
+}
+.b-desencriptar
+{
+    background: #c90d0d;
+    border: 2px solid;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    height: 70px;
+    width: 320px;
+    margin-left: 10px;
+    font-size: 38px;
+}
+.salida-texto
+{
+    border: none;
+    background: #9bd7ee;
+    text-transform: lowercase;
+    font-size: 20px;
+}
+.salida-texto:focus
+{
+    outline: none;
+}
+.b-copiar
+{
+    background: #04d92fce;
+    border: 2px solid;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    height: 70px;
+    width: 320px;
+    margin-left: 10px;
+    font-size: 38px;
+}
+.creditos
+{
+    text-align: center;
+    font-size: 2em;
+}

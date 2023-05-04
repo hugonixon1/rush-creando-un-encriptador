@@ -4,26 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <script src="encriptador.js"></script>
     <title>Encriptador</title>
 </head>
 <body>
     <header>
-        <h1>Encriptador/Desencriptador</h1>
+        <h1>CHALLENGE ONE ENCRIPTADOR</h1>
+        <img class="logo" src="imagenes/Logo.png" alt="logo de alura">
     </header>
     <main>
-        <div class="entrada">
-            <textarea id="entrada-texto" cols="30" rows="10" placeholder="solo letras minusculas"></textarea>
+        <section class="entrada">
+            <textarea class="entrada-texto" cols="80" rows="18" placeholder="introdusca el texto aqui,solo letras minusculas y sin acentuaciones"></textarea>
             <br>
-            <button class="b-encriptar">ENCRIPTAR</button>
-            <button class="b-desencriptar">DESENCRIPTAR</button>
-        </div>
-        <div class="salida">
-            <textarea id="salida-texto" cols="30" rows="10"></textarea>
+            <div class="botones">
+                <button class="b-encriptar">ENCRIPTAR</button>
+                <button class="b-desencriptar">DESENCRIPTAR</button>
+            </div>
+        </section>
+        <section class="salida">
+            <textarea class="salida-texto" cols="80" rows="18" placeholder="aqui aparecera tu texto encriptado"></textarea>
             <br>
-            <button class="copiar">COPIAR</button>
-        </div>
+            <button class="b-copiar">COPIAR</button>
+        </section>
     </main>
     <footer>
         <p class="creditos">Hecho por: Hugo Arnez</p>
