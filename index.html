@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <script src="encriptador.js"></script>
     <title>Encriptador</title>
 </head>
 <body>
@@ -22,8 +21,8 @@
             <textarea class="entrada-texto" cols="80" rows="18" placeholder="introdusca el texto aqui,solo letras minusculas y sin acentuaciones"></textarea>
             <br>
             <div class="botones">
-                <button class="b-encriptar">ENCRIPTAR</button>
-                <button class="b-desencriptar">DESENCRIPTAR</button>
+                <button class="b-encriptar" onclick="bEncriptar()" >ENCRIPTAR</button>
+                <button class="b-desencriptar" onclick="bdesEncriptar()">DESENCRIPTAR</button>
             </div>
         </section>
         <section class="salida">
@@ -35,5 +34,6 @@
     <footer>
         <p class="creditos">Hecho por: Hugo Arnez</p>
     </footer>
+    <script src="encriptador.js"></script>
 </body>
 </html>
