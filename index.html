@@ -18,17 +18,18 @@
     </header>
     <main>
         <section class="entrada">
-            <textarea class="entrada-texto" cols="80" rows="18" placeholder="introdusca el texto aqui,solo letras minusculas y sin acentuaciones"></textarea>
+            <textarea class="entrada-texto" cols="80" rows="18" placeholder="Introusca el texto a encriptar o desencriptar"></textarea>
             <br>
+            <p class="advertencia">Solo letras minusculas y sin acentuaciones por favor</p>
             <div class="botones">
                 <button class="b-encriptar" onclick="bEncriptar()" >ENCRIPTAR</button>
                 <button class="b-desencriptar" onclick="bdesEncriptar()">DESENCRIPTAR</button>
             </div>
         </section>
         <section class="salida">
-            <textarea class="salida-texto" cols="80" rows="18" placeholder="aqui aparecera tu texto encriptado"></textarea>
+            <textarea class="salida-texto" cols="80" rows="18" placeholder="Aqui aparecera tu texto encriptado"></textarea>
             <br>
-            <button class="b-copiar">COPIAR</button>
+            <button class="b-copiar" onclick="copiar()">COPIAR</button>
         </section>
     </main>
     <footer>

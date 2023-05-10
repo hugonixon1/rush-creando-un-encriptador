@@ -44,6 +44,11 @@ h1
 {
     outline: none;
 }
+.advertencia
+{
+    font-weight: bold;
+    font-size: 25px;
+}
 .botones
 {
     margin-top: 18px;
@@ -75,7 +80,9 @@ h1
 .salida-texto
 {
     border: none;
-    background: #9bd7ee;
+    background: #cae5f0;
+    background-image: url(imagenes/unown.jpeg);
+    background-repeat: no-repeat;
     text-transform: lowercase;
     font-size: 20px;
 }
@@ -93,10 +100,19 @@ h1
     height: 70px;
     width: 320px;
     margin-left: 10px;
+    margin-bottom: 20px;
     font-size: 38px;
 }
 .creditos
 {
     text-align: center;
+    color: white;
     font-size: 2em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ca1010;
+    text-align: center;
+    padding: 10px;
 }
