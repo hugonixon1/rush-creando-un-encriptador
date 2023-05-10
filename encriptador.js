@@ -65,6 +65,7 @@ function desencriptar (textodesencriptado)
     }
     return textodesencriptado;
 }
+//funcion de copiado de texto
 function copiar(){
     mensaje.select();
     document.execCommand("copy");
